@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751791917211",
+    "project_id": "twitterclone-c30b4",
+    "storage_bucket": "twitterclone-c30b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751791917211:android:74c9fb26e4abb32d8a1e3e",
+        "android_client_info": {
+          "package_name": "woodensfanfan.twitter_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751791917211-92bs4if5vhe8h985fifv4po5oqqlndvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXiOuAzTkMqAp0lrSOEuTVXv8qrvu_Xgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751791917211-92bs4if5vhe8h985fifv4po5oqqlndvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
