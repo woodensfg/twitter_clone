@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:twitter_clone/auth/sign_up.dart';
 import 'package:twitter_clone/main/home.dart';
 import 'package:twitter_clone/models/user.dart';
+import 'package:twitter_clone/posts/add.dart';
 
 class Wrapper extends StatelessWidget {
   @override
@@ -15,6 +16,13 @@ class Wrapper extends StatelessWidget {
       return SignUp();
     }
     // show main system routes
+    return MaterialApp(
+      initialRoute: '/',
+      routes: {
+        '/' : (context) => Home(),
+        '/add' : (context) => Add()
+      }
+    );
     return Home();
   }
 }
